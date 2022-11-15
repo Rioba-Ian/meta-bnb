@@ -177,6 +177,34 @@ header {
     align-items: center;
 }
 
+/* bnb section */
+.bnb {
+    padding: 3em 0;
+}
+
+.inspiration {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #1D1D1E;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+
+    justify-content: center;
+}
+
+.grid-item {
+    border: 2px solid gray;
+    border-radius: 10px;
+
+    padding: 1em;
+}
+
+/* end of bnb section */
+
 /* cta section */
 
 .cta {
