@@ -1,5 +1,13 @@
+import Navbar from "../../Navbar"
+import Footer from "../../Footer"
 export default function Places() {
     return (
-        <h1>The places for meta bnbs</h1>
+        <>
+            <Navbar />
+            <section>
+
+            </section>
+            <Footer />
+        </>
     )
 }
