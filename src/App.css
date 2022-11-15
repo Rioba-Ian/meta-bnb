@@ -211,12 +211,41 @@ header {
     background-color: #A02279;
 
     color: #fff;
+    padding: 4em 0;
 }
+
+.btn-learn-more {
+    padding: .75em 2em;
+
+    font-size: 1rem;
+    background-color: #fff;
+    color: #A02279;
+
+    border-radius: 10px;
+    border: none;
+
+}
+
+.text__section {
+    width: 40%;
+}
+
+.text__section h2 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+.text__section p {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.img__section {}
 
 /* end of cta section */
 
 
-.img__section {}
 
 /* footer section */
 

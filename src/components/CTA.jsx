@@ -1,6 +1,4 @@
-import img7 from "../assets/image 7.png"
-import img8 from "../assets/image 8.png"
-import img9 from "../assets/image 9.png"
+import ctaFrame from "../assets/Frame 59546.png"
 export default function CTA() {
     return (
         <section className="cta">
@@ -12,9 +10,7 @@ export default function CTA() {
                     <button className="btn-learn-more">Learn more</button>
                 </div>
                 <div className="img__section">
-                    <img src={img7} alt="" />
-                    <img src={img8} alt="" />
-                    <img src={img9} alt="" />
+                    <img src={ctaFrame} alt="NFt in airbnbs" />
                 </div>
             </div>
         </section>
