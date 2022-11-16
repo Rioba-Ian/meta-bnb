@@ -10,7 +10,8 @@ export default function Navbar() {
                 </a>
                 <nav className="navbar">
                     <ul className="nav__list nav__list--primary">
-                        <li><a href="#" className="nav__item">Home</a></li>
+                        <li><Link to="/" className="nav__item">Home</Link></li>
+
                         <li><a href="#" className="nav__item">Place to Stay</a></li>
                         <li>
                             <Link to="/places" className="nav__item">Places</Link>

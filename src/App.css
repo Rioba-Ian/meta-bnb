@@ -293,3 +293,50 @@ footer {
 }
 
 /* end of footer */
+
+
+/* places section */
+
+.filter__section {
+    padding: 3em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter__section button {
+    cursor: pointer;
+}
+
+.filter-btn {
+    border: none;
+
+    background-color: #fff;
+
+    font-family: 'Red Rose', serif;
+    color: #434343;
+    font-size: 1.125rem;
+
+}
+
+.location__select {
+    display: flex;
+    justify-content: start;
+
+    background-color: #fff;
+
+    border: 2px solid #B4B4B4;
+    border-radius: 10px;
+
+    padding: 0.5em;
+}
+
+.location__select p {
+    font-size: 1.125rem;
+    margin-right: 1em;
+    font-family: 'Red Rose', serif;
+    color: #434343;
+}
+
+.places__section {
+    padding: 3em 0;
+}
