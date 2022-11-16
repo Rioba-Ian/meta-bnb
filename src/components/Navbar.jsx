@@ -12,9 +12,10 @@ export default function Navbar() {
                     <ul className="nav__list nav__list--primary">
                         <li><Link to="/" className="nav__item">Home</Link></li>
 
-                        <li><a href="#" className="nav__item">Place to Stay</a></li>
+                        <li><Link to="/placestostay" className="nav__item">Place to Stay</Link></li>
                         <li>
-                            <Link to="/places" className="nav__item">Places</Link>
+
+                            <a href="#" className="nav__item">Places</a>
                         </li>
                         <li><a href="#" className="nav__item">Community</a></li>
                     </ul>

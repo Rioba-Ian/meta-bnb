@@ -4,7 +4,7 @@ import { Data } from "../../Data"
 import stars from "../../../assets/inspiration-images/stars.png";
 import settingsIcon from "../../../assets/setting-icon.svg"
 
-export default function Places() {
+export default function PlacesToStay() {
     const filterNames = [
         "Restaurant",
         "Cottage",
